@@ -1,25 +1,26 @@
+#topbar
+{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 770px;
+    margin-right: auto;
+    margin-left: auto;
+
+    position:relative;
+    left: 7px;
+}
+
 #topbar ul 
 {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-
-    background: rgb(174,188,191); /* Old browsers */
-    background: -moz-linear-gradient(-45deg,  rgba(174,188,191,1) 0%, rgba(110,119,116,1) 23%, rgba(10,14,10,1) 84%, rgba(10,8,9,1) 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(-45deg,  rgba(174,188,191,1) 0%,rgba(110,119,116,1) 23%,rgba(10,14,10,1) 84%,rgba(10,8,9,1) 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(135deg,  rgba(174,188,191,1) 0%,rgba(110,119,116,1) 23%,rgba(10,14,10,1) 84%,rgba(10,8,9,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#aebcbf', endColorstr='#0a0809',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
 }
 
 #topbar li 
 {
     float: left;
-}
-
-#topbar li:last-child 
-{
-    margin-right: 15px;
 }
 
 #topbar li a:not(.active)
@@ -30,15 +31,20 @@
 #topbar li a 
 {
     display: block;
-    color: white;
+    color: #4CAF50;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
+    margin-right: 10px;
+    margin-left: 10px;
+
+    background: white;
+    border-radius: 0px 20px 0px;
 }
 
 #topbar li a:hover:not(.active) 
 {
-    background-color: gray;
+    background-color: #F0F8FF;
     padding: 14px 16px;
     border-radius: 0px 20px 0px;
 }

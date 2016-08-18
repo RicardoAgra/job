@@ -1,20 +1,23 @@
+#topbar
+{
+    margin-top: 20px;
+    margin-bottom: 20px;
+    width: 770px;
+    margin-right: auto;
+    margin-left: auto;
+}
+
 #topbar ul 
 {
     list-style-type: none;
     margin: 0;
     padding: 0;
     overflow: hidden;
-    
-    background: rgb(174,188,191); /* Old browsers */
-    background: -moz-linear-gradient(-45deg,  rgba(174,188,191,1) 0%, rgba(110,119,116,1) 23%, rgba(10,14,10,1) 84%, rgba(10,8,9,1) 100%); /* FF3.6-15 */
-    background: -webkit-linear-gradient(-45deg,  rgba(174,188,191,1) 0%,rgba(110,119,116,1) 23%,rgba(10,14,10,1) 84%,rgba(10,8,9,1) 100%); /* Chrome10-25,Safari5.1-6 */
-    background: linear-gradient(135deg,  rgba(174,188,191,1) 0%,rgba(110,119,116,1) 23%,rgba(10,14,10,1) 84%,rgba(10,8,9,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#aebcbf', endColorstr='#0a0809',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
+    background-color: none;
 }
 
 #topbar li
 {
-    //padding: 14px 16px;
     float: left;
 }
 
@@ -23,39 +26,38 @@
     padding: 16px 16px;
 }
 
-#topbar li:last-child 
-{
-
-    margin-right: 15px;
-}
+#topbar li:last-child {}
 
 #topbar li a 
 {
     display: block;
-    color: white;
+    color: #4CAF50;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
-    border-width: 2px;
-    border-style: none;
+    margin-right: 10px;
+    margin-left: 10px;
+
+    background: white;
+    border-radius: 0px 20px 0px;
 }
 
 #topbar li a:hover:not( .active ) 
 {
     float: left;
-    background-color: gray;
+    background-color: #F0F8FF;
     padding: 14px 16px;
     border-radius: 0px 20px 0px;
 }
 
 #topbar .active 
 {
-    //background-color: #4CAF50;
     padding: 14px 14px;
-    border-radius: 0px 20px 0px;
+    
     border-style: solid;
     border-width: 2px;
     border-color: #4CAF50;
+    background: white;
 }
 
 #title
@@ -64,7 +66,7 @@
     text-align: center;
     font-style: italic;
     float: center;
-    border-radius: 10px 10px 10px 10px;
+    border-radius: 0px 20px 0px;
     border-color: lightgray;
     border-width: 2px;
     border-style: solid;
@@ -89,6 +91,13 @@ h3
     font-style: italic;
     padding-left: 30px;
     color: white;
+}
+
+#main
+{
+    min-width: 1000px;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 #info h3
@@ -161,7 +170,7 @@ h3
 
 .einfo
 {
-    margin-top: 15px; 
+    margin-bottom: 15px; 
     margin-left: 50px;
     border-radius: 10px;
     border-color: lightgray;
@@ -171,6 +180,7 @@ h3
     height: 250px;
     float: left;
     color: black;
+
 }
 
 .einfo h3
@@ -213,7 +223,7 @@ h3
 
 #foto
 {
-    border-radius: 10px 10px 10px 10px;
+    border-radius: 200px;
     border-color: lightgray;
     border-width: 2px;
     border-style: solid;
@@ -244,15 +254,17 @@ h3
 
 .exp, .explast
 {
-    margin-left: 5px;
-    margin-right: 5px;
-    margin-top: 7px;
-    width: auto;
+    background: white;
+    width: 1240px;
+    min-width: 1240px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
     height: 280px;
     color: black;
-    border-style: solid;
-    border-color: black;
-    border-width: 1px;
+    border-style: ridge;
+    border-color: darkgray;
+    border-width: 2px;
 }
 
 .explast

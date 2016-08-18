@@ -1,3 +1,19 @@
+#topbar
+{
+    border-top: ridge;
+    border-color: black;
+    border-width: 2px;
+
+    margin-top: 18px;
+    margin-bottom: 20px;
+    width: 770px;
+    margin-right: auto;
+    margin-left: auto;
+
+    position:relative;
+    left: 7px;
+}
+
 #topbar ul 
 {
     list-style-type: none;
@@ -23,15 +39,12 @@
     padding: 16px 16px;
 }
 
-#topbar li:last-child 
-{
-    margin-right: 15px;
-}
-
 #topbar li a 
 {
     display: block;
     color: white;
+    margin-right: 10px;
+    margin-left: 10px;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -58,6 +71,7 @@
     width: 100%;
     margin-left: auto;
     margin-right: auto;
+    position: relative;
 }
 
 #about div
