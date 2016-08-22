@@ -155,6 +155,11 @@
     text-justify: inter-word;
 }
 
+ul
+{
+    list-style-type: none;
+}
+
 h5
 {
     margin: 0px;
@@ -173,7 +178,6 @@ body
     background: -webkit-linear-gradient(-45deg,  rgba(174,188,191,1) 0%,rgba(110,119,116,1) 23%,rgba(10,14,10,1) 84%,rgba(10,8,9,1) 100%); /* Chrome10-25,Safari5.1-6 */
     background: linear-gradient(135deg,  rgba(174,188,191,1) 0%,rgba(110,119,116,1) 23%,rgba(10,14,10,1) 84%,rgba(10,8,9,1) 100%); /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
     filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#aebcbf', endColorstr='#0a0809',GradientType=1 ); /* IE6-9 fallback on horizontal gradient */
-
 }
 
 footer

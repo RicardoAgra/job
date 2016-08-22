@@ -1,13 +1,9 @@
 #topbar
 {
-    margin-top: 20px;
+    width: 80%;
+    margin-right: 10%;
+    margin-left: 10%;
     margin-bottom: 20px;
-    width: 770px;
-    margin-right: auto;
-    margin-left: auto;
-
-    position:relative;
-    left: 7px;
 }
 
 #topbar ul 
@@ -20,23 +16,30 @@
 
 #topbar li 
 {
+    margin-top: 20px;
+    margin-right: 1.7%;
     float: left;
 }
 
 #topbar li a:not(.active)
 {
-    padding: 16px 16px;
+    padding: 16px 2px;
+}
+
+#topbar li:last-child 
+{
+    margin-right: 0;
 }
 
 #topbar li a 
 {
+    width: 150px;
+
     display: block;
     color: #4CAF50;
     text-align: center;
-    padding: 14px 16px;
+    padding: 14px 2px;
     text-decoration: none;
-    margin-right: 10px;
-    margin-left: 10px;
 
     background: white;
     border-radius: 0px 20px 0px;
@@ -45,13 +48,13 @@
 #topbar li a:hover:not(.active) 
 {
     background-color: #F0F8FF;
-    padding: 14px 16px;
+    padding: 14px 2px;
     border-radius: 0px 20px 0px;
 }
 
 #topbar .active 
 {
-    padding: 14px 14px;
+    padding: 14px 0px;
     border-radius: 0px 20px 0px;
     border-style: solid;
     border-width: 2px;
@@ -121,10 +124,7 @@
     float: left;
 }
 
-.cultura #bomh1
-{
-    color: #CD661D;
-}
+.cultura #bomh1{ color: #CD661D; }
 
 a:link { color:#A52A2A; }
 a:visited { color:#A52A2A; }

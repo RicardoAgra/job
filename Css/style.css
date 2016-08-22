@@ -1,10 +1,9 @@
 #topbar
 {
-    margin-top: 20px;
+    width: 80%;
+    margin-right: 10%;
+    margin-left: 10%;
     margin-bottom: 20px;
-    width: 770px;
-    margin-right: auto;
-    margin-left: auto;
 }
 
 #topbar ul 
@@ -18,25 +17,30 @@
 
 #topbar li
 {
+    margin-top: 20px;
+    margin-right: 1.7%;
     float: left;
 }
 
 #topbar li a:not(.active)
 {
-    padding: 16px 16px;
+    padding: 16px 2px;
 }
 
-#topbar li:last-child {}
+#topbar li:last-child 
+{
+    margin-right: 0px;
+}
 
 #topbar li a 
 {
+    width: 150px; 
+
     display: block;
     color: #4CAF50;
     text-align: center;
-    padding: 14px 16px;
+    padding: 14px 2px;
     text-decoration: none;
-    margin-right: 10px;
-    margin-left: 10px;
 
     background: white;
     border-radius: 0px 20px 0px;
@@ -46,13 +50,13 @@
 {
     float: left;
     background-color: #F0F8FF;
-    padding: 14px 16px;
+    padding: 14px 2px;
     border-radius: 0px 20px 0px;
 }
 
 #topbar .active 
 {
-    padding: 14px 14px;
+    padding: 14px 0px;
     
     border-style: solid;
     border-width: 2px;
@@ -62,28 +66,66 @@
 
 #title
 {
-    margin: 20px;
+    width: 80%;
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-bottom: 20px;
+
     text-align: center;
     font-style: italic;
     float: center;
     border-radius: 0px 20px 0px;
-    border-color: lightgray;
-    border-width: 2px;
-    border-style: solid;
+    border-color: white;
+    border-width: 1px;
+    border-style: ridge;
+    color: white;
+}
+
+#content
+{
+    width: 361px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 20px;
+
+    text-align: center;
+}
+
+#foto
+{
+    border-radius: 200px;
+    border-color: white;
+    border-width: 1px;
+    border-style: ridge;
+}
+
+#index_hr
+{
+    width: 80%;
+    margin-right: 10%;
+    margin-left: 10%;
+}
+
+#main
+{
+    width: 80%;
+    margin-right: 10%;
+    margin-left: 10%;
+
     color: white;
 }
 
 #info
 {
-    color: white;
-    margin-left: 20px;
-    border-radius: 10px 10px 10px 10px;
-    border-color: lightgray;
-    border-width: 2px;
-    border-style: solid;
-    width: 540px;
-    height: 415px;
+    width: 35%;
     float: left;
+    margin-bottom: 20px;
+}
+
+#info h3
+{
+    font-style: italic;
+    padding-left: 20px;
 }
 
 h3
@@ -93,18 +135,7 @@ h3
     color: white;
 }
 
-#main
-{
-    min-width: 1000px;
-    margin-right: auto;
-    margin-left: auto;
-}
 
-#info h3
-{
-    font-style: italic;
-    padding-left: 20px;
-}
 
 .divform
 {
@@ -170,17 +201,18 @@ h3
 
 .einfo
 {
-    margin-bottom: 15px; 
-    margin-left: 50px;
-    border-radius: 10px;
-    border-color: lightgray;
-    border-width: 2px;
-    border-style: solid;
     width: 540px;
     height: 250px;
-    float: left;
-    color: black;
 
+    margin-left: auto;
+    margin-right: auto;
+
+    margin-bottom: 20px; 
+    
+    border-radius: 10px;
+    border-color: white;
+    border-width: 2px;
+    border-style: solid;
 }
 
 .einfo h3
@@ -210,23 +242,6 @@ h3
     margin: 0;
     padding: 0;
     padding-left: 30px;
-}
-
-#content
-{
-    margin: 20px;
-    height: 360px;
-    margin-left: 620px;
-    padding-top: 15px;
-    text-align: center;
-}
-
-#foto
-{
-    border-radius: 200px;
-    border-color: lightgray;
-    border-width: 2px;
-    border-style: solid;
 }
 
 .blogo
@@ -263,13 +278,18 @@ h3
     height: 280px;
     color: black;
     border-style: ridge;
-    border-color: darkgray;
+    border-color: black;
     border-width: 2px;
 }
 
 .explast
 {
     margin-bottom: 5px;
+}
+
+#main_c
+{
+
 }
 
 .dexplogo, .dexpjlogo
@@ -369,6 +389,7 @@ h3
 
 body 
 { 
+    background-size: cover;
 	margin: 0 !important;
  	padding: 0 !important;
     background-repeat: no-repeat;

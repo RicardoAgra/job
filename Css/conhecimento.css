@@ -1,13 +1,9 @@
 #topbar
 {
-	margin-top: 20px;
+    width: 80%;
+    margin-right: 10%;
+    margin-left: 10%;
     margin-bottom: 20px;
-    width: 770px;
-    margin-right: auto;
-    margin-left: auto;
-
- 	position:relative;
- 	left: 22px;
 }
 
 body
