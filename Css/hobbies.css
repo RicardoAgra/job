@@ -45,20 +45,35 @@
     border-radius: 0px 20px 0px;
 }
 
-#topbar li a:hover:not(.active) 
+#topbar li a:not(.active)
 {
-    background-color: #F0F8FF;
-    padding: 14px 2px;
+    padding: 8px 0px;
+    margin: 0px;
+    margin-bottom: 8px;
+
+    border-color: #A1A1A1;
+    border-style: double;
+    border-width: 2px;
     border-radius: 0px 20px 0px;
 }
 
-#topbar .active 
+#topbar li a:hover:not( .active ) 
 {
-    padding: 14px 0px;
+    float: left;
+    background-color: #F0F8FF;
+    padding: 12px 0px;
+    margin-bottom: 0px;
     border-radius: 0px 20px 0px;
+}
+
+#topbar li a.active 
+{
+    padding: 12px 0px;
+    
     border-style: solid;
     border-width: 2px;
     border-color: #4CAF50;
+    background: white;
 }
 
 #cul_title
